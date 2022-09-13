@@ -1,0 +1,28 @@
+@use "global" as *;
+
+.p-flow-text__item {
+  padding-left: rem(65);
+  margin-bottom: rem(43);
+  position: relative;
+}
+
+.p-flow-text__item:last-child {
+  margin-bottom: 0;
+}
+
+.p-flow-text__number {
+  position: absolute;
+  top: 0.2em;
+  left: 1.4em;
+  width: rem(35);
+  height: rem(35);
+  line-height: rem(35);
+  background-color: $bgc;
+  color: $white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.p-flow-text__title {
+  font-size: rem(20);
+}

@@ -1,0 +1,33 @@
+@use "global"as *;
+
+.p-flow-img__item {
+  text-align: center;
+  background-color: $bgc;
+  color: $white;
+  width: 78.6666%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: rem(30);
+  padding: rem(30) 0 rem(60);
+  position: relative;
+  clip-path: polygon(0 0,100% 0, 100% 70%, 50% 100%,0 70%);
+  z-index: 10;
+  @include mq(md) {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.p-flow-img {
+  position: relative;
+}
+.p-flow-img::before {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+  width: rem(50);
+  height: 85%;
+  background-color: #FFDD00;
+}

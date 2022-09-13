@@ -1,0 +1,28 @@
+@use "global" as *;
+
+.p-footer {
+  background-color: $black;
+  color: $white;
+  padding-top: rem(50);
+  padding-bottom: rem(20);
+  text-align: center;
+}
+
+.p-footer__nav-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: rem(70);
+}
+
+.p-footer__nav-item {
+  font-size: rem(14);
+  line-height: 1.5;
+  padding: 0 rem(20);
+  border-right: 1px solid $white;
+  margin-bottom: rem(10);
+}
+
+.p-footer__copyright {
+  font-size: rem(12);
+}

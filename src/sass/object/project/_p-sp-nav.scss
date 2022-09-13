@@ -1,0 +1,36 @@
+@use "global" as *;
+
+.p-sp-nav {
+  background-color: #fff;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -300px;
+  padding: rem(25);
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+.p-sp-nav.is-open {
+  left: 0;
+}
+
+.p-sp-nav__items {
+  margin-bottom: rem(76);
+}
+
+.p-sp-nav__item {
+  padding: rem(8) 0;
+}
+
+.p-sp-nav__sns-item {
+  padding: rem(8) 0;
+}
+
+.p-sp-nav__item a,
+.p-sp-nav__sns-item a {
+  display: block;
+  width: 100%;
+  height: inherit;
+}

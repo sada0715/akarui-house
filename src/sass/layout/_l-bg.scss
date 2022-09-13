@@ -1,0 +1,11 @@
+@use "global" as *;
+
+.l-bg {
+  margin-top: rem(500);
+  padding-top: rem(60);
+  padding-bottom: rem(120);
+  @include mq(md) {
+    margin-top: rem(700);
+    padding-bottom: rem(160);
+  }
+}

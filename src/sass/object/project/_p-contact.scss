@@ -1,0 +1,72 @@
+@use "global" as *;
+
+.p-contact {
+  background-color: $white;
+  padding-bottom: rem(120);
+  @include mq(md) {
+    padding-bottom: rem(160);
+  }
+}
+
+.p-contact__title {
+  margin-bottom: rem(30);
+  @include mq(md) {
+    margin-bottom: rem(60);
+  }
+}
+
+.p-contact__text {
+  margin-bottom: rem(30);
+  @include mq(md) {
+    margin-bottom: rem(60);
+  }
+}
+
+.p-contact__items {
+  @include mq(md) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.p-contact__item {
+  width: 53.3333%;
+  height: rem(190);
+  border: 1px solid $black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: rem(20);
+  text-align: center;
+  display: block;
+  position: relative;
+  transition: 0.1s;
+  @include mq(md) {
+    width: 30%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.p-contact__item:hover {
+  outline: 3px solid $black;
+}
+
+.p-contact__item::before {
+  position: absolute;
+  bottom: rem(4);
+  right: rem(4);
+  content: "";
+  width: rem(20);
+  height: rem(20);
+  background-color: $black;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+}
+
+.p-contact__item img {
+  width: rem(64);
+  display: block;
+  margin-top: rem(50);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: rem(5);
+}

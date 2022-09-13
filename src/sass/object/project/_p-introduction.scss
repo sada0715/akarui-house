@@ -1,0 +1,8 @@
+@use "global" as *;
+
+.p-introduction__title {
+  margin-bottom: rem(30);
+  @include mq(md) {
+    margin-bottom: rem(60);
+  }
+}

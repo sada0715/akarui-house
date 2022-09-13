@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <!-- meta情報 -->
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- ogp -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:description" content="" />
+  <!-- ファビコン -->
+  <link rel="”icon”" href="" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!-- css -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<body>
+  <header class="p-header">
+    <div class="p-header__sp-header p-sp-header u-mobile">
+      <div class="p-sp-header__inner">
+        <h1 class="p-sp-header__logo"><a href="#"><img src="./images/common/logo.svg" alt=""></a></h1>
+      </div>
+    </div>
+    <button class="p-sp-header__drawer p-hamburger js-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="p-header__sp-nav p-sp-nav js-sp-nav">
+      <ul class="p-sp-nav__items">
+        <li class="p-sp-nav__item"><a href="#">私たちについて</a></li>
+        <li class="p-sp-nav__item"><a href="#">サービス</a></li>
+        <li class="p-sp-nav__item"><a href="#">商品情報</a></li>
+        <li class="p-sp-nav__item"><a href="#">展示会</a></li>
+        <li class="p-sp-nav__item"><a href="#">暮らしの日記</a></li>
+        <li class="p-sp-nav__item"><a href="#">会社概要</a></li>
+      </ul>
+      <ul class="p-sp-nav__sns-items">
+        <li class="p-sp-nav__sns-item"><a href="#">Twitter</a></li>
+        <li class="p-sp-nav__sns-item"><a href="#">facebook</a></li>
+        <li class="p-sp-nav__sns-item"><a href="#">instagram</a></li>
+      </ul>
+    </nav>
+    <div class="p-header__pc-header p-pc-header u-desktop">
+      <div class="p-pc-header__inner">
+        <h1 class="p-pc-header__logo"><a href="#"><img src="./images/common/logo.svg" alt=""></a></h1>
+        <nav class="p-header__pc-nav p-pc-nav">
+          <ul class="p-pc-nav__items">
+            <li class="p-pc-nav__item"><a href="#">私たちについて</a></li>
+            <li class="p-pc-nav__item"><a href="#">サービス</a></li>
+            <li class="p-pc-nav__item"><a href="#">商品情報</a></li>
+            <li class="p-pc-nav__item"><a href="#">展示会</a></li>
+            <li class="p-pc-nav__item"><a href="#">暮らしの日記</a></li>
+            <li class="p-pc-nav__item"><a href="#">会社概要</a></li>
+          </ul>
+          <ul class="p-pc-nav__sns-items">
+            <li class="p-pc-nav__sns-item"><a href="#">Twitter</a></li>
+            <li class="p-pc-nav__sns-item"><a href="#">facebook</a></li>
+            <li class="p-pc-nav__sns-item"><a href="#">instagram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="p-mask js-mask js-hamburger"></div>
+  </header>
+  <main class="p-main">
+
+    <div class="p-main-view l-main-view">
+      <video src="./images/common/main-view.mp4" class="p-main-view__video" loop autoplay muted playsinline></video>
+    </div>
+    <div class="p-bg l-bg">
+      <section class="p-introduction l-introduction">
+        <div class="p-introduction__inner l-inner">
+          <h2 class="p-introduction__title c-section-title c-section-title--white">建築事例を紹介</h2>
+          <ul class="p-introduction__items c-cards">
+            <li class="p-introduction__item c-cards__item c-card"><a href="#">
+              <div class="c-card__img">
+                <img src="./images/common/house-1.jpg" alt="" class="c-card__img">
+              </div>
+              <p class="c-card__name">PROJECT_01</p>
+            </a></li>
+            <li class="p-introduction__item c-cards__item c-card"><a href="#">
+              <div class="c-card__img">
+                <img src="./images/common/house-2.jpg" alt="" class="c-card__img">
+              </div>
+              <p class="c-card__name">PROJECT_02</p>
+            </a></li>
+            <li class="p-introduction__item c-cards__item c-card"><a href="#">
+              <div class="c-card__img">
+                <img src="./images/common/house-3.jpg" alt="" class="c-card__img">
+              </div>
+              <p class="c-card__name">PROJECT_03</p>
+            </a></li>
+            <li class="p-introduction__item c-cards__item c-card"><a href="#">
+              <div class="c-card__img">
+                <img src="./images/common/house-4.jpg" alt="" class="c-card__img">
+              </div>
+              <p class="c-card__name">PROJECT_04</p>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-feature">
+        <div class="p-feature__inner l-inner">
+          <h2 class="p-feature__title c-section-title c-section-title--white">明るいHOUSEの特徴</h2>
+          <ul class="p-feature__items">
+            <li class="p-feature__item p-feature-item"><a href="#">
+              <div class="p-feature-item__img">design</div>
+              <h3 class="p-feature-item__title">デザイン</h3>
+              <p class="p-feature-item__text">テキストテキストテキスト</p>
+            </a></li>
+            <li class="p-feature__item p-feature-item"><a href="#">
+              <div class="p-feature-item__img">quality</div>
+              <h3 class="p-feature-item__title">性能</h3>
+              <p class="p-feature-item__text">テキストテキストテキスト</p>
+            </a></li>
+            <li class="p-feature__item p-feature-item"><a href="#">
+              <div class="p-feature-item__img">support</div>
+              <h3 class="p-feature-item__title">サポート</h3>
+              <p class="p-feature-item__text">テキストテキストテキスト</p>
+            </a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  
+    <section class="p-flow l-flow">
+      <div class="p-flow__inner l-inner">
+        <h2 class="p-flow__title c-section-title c-section-title--black">家ができるまでの流れ</h2>
+        <p class="p-flow__text">お問い合わせいただいてから、家が完成するまでの流れです。</p>
+        <div class="p-flow__contents-wrapper">
+          <div class="p-flow__contents--left p-flow-img">
+            <div class="p-flow-img__item">1.ヒアリング</div>
+            <div class="p-flow-img__item">2.プラン提案</div>
+            <div class="p-flow-img__item">3.契約</div>
+            <div class="p-flow-img__item">4.着工</div>
+            <div class="p-flow-img__item">5.完成</div>
+          </div>
+          <div class="p-flow__contents--right p-flow-text">
+            <div class="p-flow-text__item">
+              <p class="p-flow-text__title">ヒアリング</p>
+              <hr>
+              <p class="p-flow-text__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <span class="p-flow-text__number">1</span>
+            </div>
+            <div class="p-flow-text__item">
+              <p class="p-flow-text__title">プラン提案</p>
+              <hr>
+              <p class="p-flow-text__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <span class="p-flow-text__number">2</span>
+            </div>
+            <div class="p-flow-text__item">
+              <p class="p-flow-text__title">契約</p>
+              <hr>
+              <p class="p-flow-text__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <span class="p-flow-text__number">3</span>
+            </div>
+            <div class="p-flow-text__item">
+              <p class="p-flow-text__title">着工</p>
+              <hr>
+              <p class="p-flow-text__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <span class="p-flow-text__number">4</span>
+            </div>
+            <div class="p-flow-text__item">
+              <p class="p-flow-text__title">完成</p>
+              <hr>
+              <p class="p-flow-text__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <span class="p-flow-text__number">5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="p-contact l-contact">
+      <div class="p-contact__inner l-inner">
+        <h2 class="p-contact__title c-section-title">お問い合わせ</h2>
+        <p class="p-contact__text">お問い合わせは下記からお願いいたします。</p>
+        <div class="p-contact__items">
+          <a class="p-contact__item" href="#">
+            <img src="./images/common/icon-document.png" alt="">
+            資料請求
+          </a>
+          <a class="p-contact__item" href="#">
+            <img src="./images/common/icon-seminar.png" alt="">
+            web説明会
+          </a>
+          <a class="p-contact__item" href="#">
+            <img src="./images/common/icon-talk.png" alt="">
+            個別相談
+          </a>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="p-footer">
+      <div class="p-footer__inner l-inner">
+        <nav class="p-footer__nav-items">
+          <p class="p-footer__nav-item"><a href="#">私たちについて</a></p>
+          <p class="p-footer__nav-item"><a href="#">サービス</a></p>
+          <p class="p-footer__nav-item"><a href="#">商品情報</a></p>
+          <p class="p-footer__nav-item"><a href="#">展示会</a></p>
+          <p class="p-footer__nav-item"><a href="#">暮らしの日記</a></p>
+          <p class="p-footer__nav-item"><a href="#">会社概要</a></p>
+        </nav>
+        <small class="p-footer__copyright">
+          Copyright © 2021 Akarui HOUSE All Rights Reserved.
+        </small>
+      </div>
+    </footer>
+    <div class="c-pagetop"></div>
+  </main>
+</body>
+</html>

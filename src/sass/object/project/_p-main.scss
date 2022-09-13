@@ -1,0 +1,10 @@
+@use "global" as *;
+
+.p-main {
+  @include mq(md) {
+    width: calc(100% - 300px);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
